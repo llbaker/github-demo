@@ -6,9 +6,11 @@ A simple demo repository to show basic Git workflow
 Below is a compilation of commands for running jest unit tests from the command line using **jest version 27.4**.
 
 ## CLI format
-Jest unit tests can be run using jest, yarn, or npm. The format for each is
+Jest unit tests can be run using jest and nx.  Jest unit test can also be tun using yarn and npm. The format for each is
 
 - `jest`*`option`*
+
+- `nx test `*`option`*
 
 - `yarn test`*`option`* 
 
