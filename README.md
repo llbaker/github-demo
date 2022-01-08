@@ -57,8 +57,19 @@ These formats are provided for reference.
 # Jest Unit Test - Starting Point #
 Jest is the default test runner for Nx.
 
-## Using Given-When-Then ##
-By default, Jest uses a describe-it structure for tests. [Shai Reznik’s jest-given plug-in] (https://github.com/hirezio/given/tree/master/packages/jest-given)
-available on GitHub that uses a slightly more intuitive structure, given-when-then
+## Test Structure - Using Given-When-Then ##
+By default, Jest uses a describe block that contains before-it-after structure for a set of tests. A single describe block can contain a describe block for each test case.
+Shai Reznik’s jest-given plug-in, https://github.com/hirezio/given/tree/master/packages/jest-given, uses a given-when-then structure instead of the before-it-after structure.
+### Installing Jest-Given ###
+
+### Typical Test Structure ###
+Unit tests are intended to test the methods of components.  
+
+#### Testing Methods With Direct Inputs ####
+
+#### Testing Methods With Indirect Inputs ####
+
+#### Testing Methods With Collaboration Inputs ####
+
 
 
